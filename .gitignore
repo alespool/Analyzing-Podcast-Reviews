@@ -21,3 +21,6 @@ venv/
 
 # Ignore sqlite files for sizes
 *.sqlite
+*.sql
+*.pkl
+*.zip
