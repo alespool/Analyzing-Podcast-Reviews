@@ -34,7 +34,7 @@ The data is collected over time, with podcast and review information spanning mu
 
 ## Data Extraction:
 - The data is sourced from [Podcast Reviews](https://www.kaggle.com/datasets/anth7310/mental-health-in-the-tech-industry).
-- It is organized into four tables: `podcasts`, `reviews`, `categories`, and `runs`.
+- It is organized into four tables: `podcasts`, `reviews` and `categories`.
 - EDA is conducted to gain insights into the podcasts and the trends associated.
 
 ## Sentiment Analysis:
@@ -59,6 +59,12 @@ Some aspects that could be improved on this analysis:
 - Time-Series Analysis: Analyzing the temporal aspect of reviews and ratings can reveal how sentiments and podcast popularity evolve over time. Time-series analysis can provide valuable information for podcast creators and marketers.
 
 - Machine Learning Models: Implementing machine learning models for sentiment analysis and predicting podcast success can lead to more accurate predictions and recommendations. Models can help in identifying which podcasts are likely to receive high or low ratings based on content and user engagement.
+
+## Additional findings:
+There are 2 screenshots available in the folder, which were later added through peer-review and feedback on the analysis. These represent 2 important aspects of this analysis:
+
+- The fact that podcast popularity seemed to have faded after 2020, which I believed was due mainly to the pandemic, might also be traced to how Spotify took over in the streaming podcast market;
+- The podcasts with a high number of reviews are really only 10% (or less) than the total amount of podcasts present, with the rate trickling down exponentially for other podcasts. AKA a few podcasts have >80% of the reviews.
 
 ## Getting Started:
 To replicate this analysis, follow these steps:
